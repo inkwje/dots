@@ -1,0 +1,26 @@
+/*
+* name: Rosé Pine Dawn
+* upstream: https://github.com/rose-pine/rofi/blob/main/rose-pine-dawn.rasi
+*
+* All natural pine, faux fur and a bit of soho vibes for the classy minimalist
+*/
+
+* {
+	base: #faf4ed;
+	surf: #fffaf3;
+	over: #f2e9e1;
+	mute: #9893a5;
+	subt: #797593;
+	text: #575279;
+
+	love: #b4637a;
+	gold: #ea9d34;
+	rose: #d7827e;
+	pine: #286983;
+	foam: #56949f;
+	iris: #907aa9;
+
+	low: #f4efe8;
+	med: #dfdad9;
+	high: #cecacd;
+}

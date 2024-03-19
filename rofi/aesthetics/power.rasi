@@ -1,0 +1,98 @@
+@theme "/themes/theme"
+
+* {
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+	spacing: 0;
+
+	background-color: transparent;
+}
+
+window {
+	font: "JetBrains Mono Bold 12";
+	transparency: "real";
+	location: center;
+	anchor: center;
+	fullscreen: false;
+	width: 50%;
+	height: 19em;
+	x-offset: 0;
+	y-offset: 0;
+
+	border: 2px;
+	border-radius: 15px;
+	border-color: @high;
+}
+
+mainbox {
+	orientation: horizontal;
+	children: [ listbox, imagebox ];
+}
+
+listbox {
+	children: [ listview ];
+	background-color: @base;
+}
+
+listview {
+	margin: 0.7em;
+	spacing: 0.25em;
+	columns: 2;
+	cycle: true;
+	dynamic: true;
+}
+
+element {
+	border-radius: 15px;
+	padding: 3.30em;
+
+	text-color:	@mute;
+	cursor: pointer;
+}
+
+element selected {
+	background-color: @text;
+	text-color: @base;
+}
+
+element-text {
+	vertical-align: 0.5;
+	horizontal-align: 0.5;
+
+	font: "JetBrains Mono 24";
+	text-color: inherit;
+	cursor: inherit;
+}
+
+imagebox {
+	children: [ inputbar, empty, message ];
+	margin: 1em;
+}
+
+inputbar {
+	children: [ empty, prompt, empty ];
+}
+
+prompt {
+	border-radius: 100%;
+	padding: 0.4em 5em;
+
+	background-color: @gold;
+	text-color: @base;
+}
+
+message {
+	border-radius: 100%;
+}
+
+textbox {
+	padding: 0.3em;
+	vertical-align: 0.5;
+	horizontal-align: 0.5;
+
+	font: "JetBrains Mono SemiBold 10";
+	background-color: @over;
+	text-color: @subt;
+}

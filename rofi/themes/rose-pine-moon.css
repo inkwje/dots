@@ -1,0 +1,26 @@
+/*
+* name: Rosé Pine Moon
+* upstream: https://github.com/rose-pine/rofi/blob/main/rose-pine-moon.rasi
+*
+* All natural pine, faux fur and a bit of soho vibes for the classy minimalist
+*/
+
+* {
+	base: #232136;
+	surf: #2a273f;
+	over: #393552;
+	mute: #6e6a86;
+	subt: #908caa;
+	text: #e0def4;
+
+	love: #eb6f92;
+	gold: #f6c177;
+	rose: #ea9a97;
+	pine: #3e8fb0;
+	foam: #9ccfd8;
+	iris: #c4a7e7;
+
+	low: #2a283e;
+	med: #44415a;
+	high: #56526e;
+}
