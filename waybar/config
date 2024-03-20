@@ -1,4 +1,26 @@
 {
 	"layer": "top",
 	"position": "bottom",
+
+	"modules-center": ["clock"],
+
+	"clock": {
+		"format-alt": "{:%A, %d %B %Y, %R}",
+		"tooltip-format": "<small><tt>{calendar}</tt></small>",
+		"calendar": {
+			"mode": "month",
+			"mode-mon-col": 3,
+			"weeks-pos": "left",
+			"format": {
+				"months": "<span color='#ebbcba'>{}</span>",
+				"days": "<span color='#908caa'>{}</span>",
+				"weeks": "<span color='#f6c177'>{}</span>",
+				"weekdays": "<span color='#e0def4'>{}</span>",
+				"today": "<span color='#e0def4'><u>{}</u></span>",
+			},
+		},
+		"actions": {
+			"on-click-right": "mode",
+		},
+	},
 }
