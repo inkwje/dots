@@ -45,4 +45,15 @@
 		"format-wifi": " {essid}",
 		"tooltip-format": " {bandwidthUpBits}\n {bandwidthDownBits}",
 	},
+
+	"battery": {
+		"interval": 1,
+		"tooltip": false,
+		"states": {
+			"critical": 20,
+		},
+		"format": " {capacity}%",
+		"format-critical": " {capacity}%",
+		"format-charging": " {capacity}%",
+	},
 }
