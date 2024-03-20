@@ -1,0 +1,25 @@
+/*
+* name: Rosé Pine Dawn
+* upstream: https://github.com/rose-pine/waybar/blob/main/rose-pine-dawn.css
+*
+* All natural pine, faux fur and a bit of soho vibes for the classy minimalist
+*/
+
+@define-color base #faf4ed;
+@define-color surf #fffaf3;
+@define-color over #f2e9e1;
+
+@define-color mute #9893a5;
+@define-color subt #797593;
+@define-color text #575279;
+
+@define-color love #b4637a;
+@define-color gold #ea9d34;
+@define-color rose #d7827e;
+@define-color pine #286983;
+@define-color foam #56949f;
+@define-color iris #907aa9;
+
+@define-color low #f4ede8;
+@define-color med #dfdad9;
+@define-color high #cecacd;
