@@ -2,8 +2,31 @@
 	"layer": "top",
 	"position": "bottom",
 
+	"modules-left": ["custom/main", "hyprland/workspaces", "hyprland/window"],
 	"modules-center": ["clock"],
 	"modules-right": ["pulseaudio", "network", "battery"],
+
+	"hyprland/workspaces": {
+		"on-click": "activate",
+		"sort-by": "number",
+		"show-special": true,
+		"persistent-workspaces": {
+			"*"	: 3,
+		},
+		"format": "{icon}",
+		"format-icons": {
+			"active": "",
+			"default": "",
+			"special": "",
+		},
+	},
+
+	"hyprland/window": {
+		"format": " {class}",
+		"rewrite": {
+			".*(telegram).*": "$1",
+		},
+	},
 
 	"clock": {
 		"format-alt": "{:%A, %d %B %Y, %R}",
