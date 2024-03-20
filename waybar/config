@@ -37,4 +37,12 @@
 			"default": [" ", " ", " "],
 		},
 	},
+
+	"network": {
+		"interval": 15,
+		"format-disconnected": " Disconnected",
+		"format-ethernet": " {bandwidthTotalBits}",
+		"format-wifi": " {essid}",
+		"tooltip-format": " {bandwidthUpBits}\n {bandwidthDownBits}",
+	},
 }
