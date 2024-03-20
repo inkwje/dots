@@ -6,6 +6,12 @@
 	"modules-center": ["clock"],
 	"modules-right": ["pulseaudio", "network", "battery"],
 
+	"custom/main": {
+		"on-click": "rofi -show pw -modes 'pw:.config/rofi/scripts/power.sh' -theme .config/rofi/aesthetics/power.rasi",
+		"format": "",
+		"tooltip": false,
+	},
+
 	"hyprland/workspaces": {
 		"on-click": "activate",
 		"sort-by": "number",
