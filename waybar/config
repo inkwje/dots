@@ -3,6 +3,7 @@
 	"position": "bottom",
 
 	"modules-center": ["clock"],
+	"modules-right": ["pulseaudio", "network", "battery"],
 
 	"clock": {
 		"format-alt": "{:%A, %d %B %Y, %R}",
@@ -21,6 +22,19 @@
 		},
 		"actions": {
 			"on-click-right": "mode",
+		},
+	},
+
+	"pulseaudio": {
+		"scroll-step": 10.0,
+		"max-volume": 200,
+		"states": {
+			"muted": 0,
+		},
+		"format": "{icon}{volume}%",
+		"format-muted": " muted",
+		"format-icons": {
+			"default": [" ", " ", " "],
 		},
 	},
 }
