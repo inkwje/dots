@@ -3,7 +3,7 @@
 	email = dange@duck.com
 	signingKey = 58072EC9CE8B1707
 [core]
-	editor = neovim
+	editor = nvim
 	pager = less
 [commit]
 	gpgSign = true
