@@ -1,0 +1,88 @@
+/* THEMES */
+@import "themes/theme.css";
+
+/* RESET */
+* {
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+
+  font: 600 14px JetBrains Mono;
+}
+
+#waybar {
+  background: @base;
+}
+
+.modules-left {
+  margin-left: 1em;
+}
+
+.modules-right {
+  margin-right: 1em;
+}
+
+#workspaces,
+#clock,
+#pulseaudio,
+#network,
+#battery {
+  margin: 0.35em 0;
+  border-radius: 15px;
+  padding: 0.5em 1em;
+  color: @text;
+}
+
+/* MODULES-LEFT */
+#custom-main {
+  font-size: 2em;
+  color: @gold;
+}
+
+#workspaces {
+  margin: 0.35em 0.5em;
+  padding: 0 0.5em;
+  background: @over;
+}
+
+#workspaces button {
+  border-radius: 15px;
+  padding: 0.35em 0.7rem;
+
+  background: transparent;
+  color: @mute;
+}
+
+#workspaces button:hover {
+  box-shadow: none;
+  text-shadow: none;
+}
+
+#workspaces button.active {
+  color: @text;
+}
+
+#workspaces button.special {
+  color: @rose;
+}
+
+#window {
+  color: @text;
+}
+
+/* MODULES-CENTER */
+
+/* MODULES-RIGHT */
+#battery {
+  background: @pine;
+  color: @base;
+}
+
+#battery.critical {
+  background: @love;
+}
+
+#battery.charging {
+  background: @gold;
+}
