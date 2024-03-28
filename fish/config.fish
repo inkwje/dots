@@ -7,6 +7,8 @@ if status is-login
     set -gx XDG_CACHE_HOME $HOME/.cache/
     set -gx XDG_DATA_HOME $HOME/.local/share
     set -gx XDG_STATE_HOME $HOME/.local/state
+
+	Hyprland
 end
 
 if status is-interactive
