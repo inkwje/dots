@@ -18,3 +18,6 @@ if status is-interactive
   set -gx GNUPGHOME $HOME/KEY/pgp/
   set -gx GPG_TTY (tty)
 end
+
+abbr -a vi nvim
+abbr -a vim nvim
