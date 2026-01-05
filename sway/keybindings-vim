@@ -1,0 +1,7 @@
+# resize focused window
+
+bindsym $mod+ALT+k resize shrink height 20px
+bindsym $mod+ALT+h resize shrink width 20px
+bindsym $mod+ALT+j resize grow height 20px
+bindsym $mod+ALT+l resize grow width 20px
+

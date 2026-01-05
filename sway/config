@@ -5,6 +5,8 @@ set $mod SUPER
 
 set $term foot
 include ~/.config/sway/keybindings
+include ~/.config/sway/keybindings-arrows
+include ~/.config/sway/keybindings-vim
 include ~/.config/sway/keybindings-gestures
 include /etc/sway/config.d/*
 
