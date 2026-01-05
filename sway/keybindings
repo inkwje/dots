@@ -23,3 +23,23 @@ bindsym --locked XF86AudioMute exec wpctl set-mute @DEFAULT_SINK@ toggle
 bindsym --locked XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_SINK@ 5%-
 bindsym --locked XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_SINK@ 5%+
 
+# move around workspaces
+
+bindsym $mod+0 workspace number 0
+bindsym $mod+1 workspace number 1
+bindsym $mod+2 workspace number 2
+bindsym $mod+3 workspace number 3
+bindsym $mod+7 workspace number 7
+bindsym $mod+8 workspace number 8
+bindsym $mod+9 workspace number 9
+
+# move focused window to workspace
+
+bindsym $mod+SHIFT+0 move window to workspace number 0
+bindsym $mod+SHIFT+1 move window to workspace number 1
+bindsym $mod+SHIFT+2 move window to workspace number 2
+bindsym $mod+SHIFT+3 move window to workspace number 3
+bindsym $mod+SHIFT+7 move window to workspace number 7
+bindsym $mod+SHIFT+8 move window to workspace number 8
+bindsym $mod+SHIFT+9 move window to workspace number 9
+
