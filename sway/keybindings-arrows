@@ -5,3 +5,17 @@ bindsym $mod+ALT+left resize shrink width 20px
 bindsym $mod+ALT+down resize grow height 20px
 bindsym $mod+ALT+right resize grow width 20px
 
+# move focus
+
+bindsym $mod+up focus up
+bindsym $mod+left focus left
+bindsym $mod+down focus down
+bindsym $mod+right focus right
+
+# move focused window
+
+bindsym $mod+SHIFT+up move up
+bindsym $mod+SHIFT+left move left
+bindsym $mod+SHIFT+down move down
+bindsym $mod+SHIFT+right move right
+
