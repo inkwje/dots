@@ -4,6 +4,8 @@
 set $mod SUPER
 
 set $term foot
+
+include ~/.config/sway/bar
 include ~/.config/sway/keybindings
 include ~/.config/sway/keybindings-arrows
 include ~/.config/sway/keybindings-vim
