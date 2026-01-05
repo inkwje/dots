@@ -1,0 +1,11 @@
+# hold
+
+bindgesture hold:3 workspace 0
+
+# swipe
+
+bindgesture swipe:3:left workspace prev
+bindgesture swipe:3:right workspace next
+
+# pinch
+
