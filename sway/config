@@ -4,5 +4,6 @@
 set $mod SUPER
 
 set $term foot
+include ~/.config/sway/keybindings
 include /etc/sway/config.d/*
 

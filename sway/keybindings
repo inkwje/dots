@@ -1,0 +1,13 @@
+bindsym $mod+SHIFT+c reload
+
+# system control
+
+bindsym $mod+DELETE exit
+bindsym $mod+ESCAPE exit
+bindsym $mod+q kill
+
+# run applications
+
+bindsym $mod+RETURN exec $term
+bindsym $mod+SPACE exec $term
+
