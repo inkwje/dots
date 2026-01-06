@@ -11,6 +11,7 @@ bindsym $mod+q kill
 bindsym $mod+RETURN exec $term
 bindsym $mod+SPACE exec $term
 
+bindsym $mod+f exec $brow
 # brightness control
 
 bindsym --locked XF86MonBrightnessDown exec brightnessctl set 10%-

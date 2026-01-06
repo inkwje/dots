@@ -4,6 +4,7 @@
 set $mod SUPER
 
 set $term foot
+set $brow zen-browser
 
 include ~/.config/sway/bar
 include ~/.config/sway/keybindings
