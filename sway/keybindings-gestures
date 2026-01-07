@@ -7,5 +7,8 @@ bindgesture hold:3 workspace 0
 bindgesture swipe:3:left workspace prev
 bindgesture swipe:3:right workspace next
 
+bindgesture swipe:4:up exec $term
+bindgesture swipe:4:down exec $shut
+
 # pinch
 
