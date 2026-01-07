@@ -19,3 +19,8 @@ bindsym $mod+SHIFT+h move left
 bindsym $mod+SHIFT+j move down
 bindsym $mod+SHIFT+l move right
 
+# move focused window around workspaces : works different from my expectations
+
+# bindsym $mod+SHIFT+CTRL+h move window to workspace prev_on_output
+# bindsym $mod+SHIFT+CTRL+l move window to workspace next_on_output
+
