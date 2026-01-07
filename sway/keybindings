@@ -24,6 +24,15 @@ bindsym --locked XF86AudioMute exec wpctl set-mute @DEFAULT_SINK@ toggle
 bindsym --locked XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_SINK@ 5%-
 bindsym --locked XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_SINK@ 5%+
 
+# layout control
+
+bindsym $mod+m fullscreen toggle
+bindsym $mod+x split toggle
+
+bindsym $mod+t focus mode_toggle
+bindsym $mod+a floating toggle
+bindsym $mod+s sticky toggle
+
 # move around workspaces
 
 bindsym $mod+0 workspace number 0
