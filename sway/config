@@ -8,6 +8,8 @@ set $brow zen-browser
 
 set $shut "shutdown now"
 
+exec mako
+
 include ~/.config/sway/bar
 include ~/.config/sway/keybindings
 include ~/.config/sway/keybindings-arrows
