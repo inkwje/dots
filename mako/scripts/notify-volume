@@ -1,0 +1,6 @@
+#!/bin/sh
+
+volume=$(wpctl get-volume @DEFAULT_AUDIO_SINK@)
+volume=$(echo "$volume" | awk '{print ($2 * 100)}')
+
+notify-send -t 3000 -a 'notify-volume' -h string:x-canonical-private-synchronous:volume -h int:value:$volume "Volume: ${volume}"

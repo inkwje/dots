@@ -21,8 +21,8 @@ bindsym --locked XF86MonBrightnessUp exec brightnessctl set 10%+
 
 bindsym --locked XF86AudioMicMute exec wpctl set-mute @DEFAULT_SOURCE@ toggle
 bindsym --locked XF86AudioMute exec wpctl set-mute @DEFAULT_SINK@ toggle
-bindsym --locked XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_SINK@ 5%-
-bindsym --locked XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_SINK@ 5%+
+bindsym --locked XF86AudioLowerVolume exec wpctl set-volume -l 0.0 @DEFAULT_SINK@ 5%- && notify-volume
+bindsym --locked XF86AudioRaiseVolume exec wpctl set-volume -l 1.2 @DEFAULT_SINK@ 5%+ && notify-volume
 
 # layout control
 

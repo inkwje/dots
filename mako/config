@@ -1,0 +1,7 @@
+[app-name=notify-volume]
+layer=overlay
+anchor=top-center
+group-by=app-name
+
+[app-name=volume group-index=0]
+invisible=0
