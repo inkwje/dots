@@ -14,8 +14,8 @@ bindsym $mod+SPACE exec $term
 bindsym $mod+f exec $brow
 # brightness control
 
-bindsym --locked XF86MonBrightnessDown exec brightnessctl set 10%-
-bindsym --locked XF86MonBrightnessUp exec brightnessctl set 10%+
+bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%- && notify-bright
+bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+ && notify-bright
 
 # audio control
 
