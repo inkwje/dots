@@ -17,3 +17,7 @@ else
     export SSH_AUTH_SOCK="$HOME/.ssh/ssh_auth.sock"
 fi
 
+if [ -z "$WAYLAND_DISPLAY" ] && [ -n "$XDG_VTNR" ] && [ "$XDG_VTNR" -eq 1 ];
+then
+    exec sway
+fi
