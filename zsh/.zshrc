@@ -9,3 +9,11 @@ alias grep="grep --color=auto"
 
 export GPG_TTY=$(tty)
 
+if [ -z "$SSH_AUTH_SOCK" ];
+then
+    eval $(ssh-agent -t 4h)
+    ln -sf "$SSH_AUTH_SOCK" "$HOME/.ssh/ssh_auth.sock"
+else
+    export SSH_AUTH_SOCK="$HOME/.ssh/ssh_auth.sock"
+fi
+
