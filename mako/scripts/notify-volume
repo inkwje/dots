@@ -6,7 +6,7 @@ read vol flgmute_vol <<< $(echo $wpgvol \
 
 strvol="$vol${flgmute_vol:+ $flgmute_vol}"
 
-notify-send -t 3000 -a 'notify-volume' \
+notify-send -t 3000 -a 'controls' \
     -h string:x-canonical-private-synchronous:volume \
     -h int:value:$vol \
     "Volume: $strvol"

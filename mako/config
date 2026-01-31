@@ -1,9 +1,4 @@
-[app-name=notify-volume]
-layer=overlay
+[app-name=controls]
 anchor=top-center
-group-by=app-name
-
-[app-name=notify-bright]
+history=0
 layer=overlay
-anchor=top-center
-group-by=app-name
