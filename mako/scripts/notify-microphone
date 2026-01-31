@@ -1,0 +1,11 @@
+#!/usr/bin/sh
+
+wpgmic=$(wpctl get-volume @DEFAULT_SOURCE@)
+read mic flgmute_mic <<< "$(echo $wpgmic | awk '{ printf("%d %s", $2 * 100, $3 ? "MUTE" : "") }')"
+
+strmic="Microphone: $mic${flgmute_mic:+ $flgmute_mic}"
+
+notify-send -t 3000 -a 'controls' \
+    -h string:x-canonical-private-synchronous:microphone \
+    -h int:value:$mic \
+    "$strmic"
