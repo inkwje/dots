@@ -1,6 +1,8 @@
-#!/bin/sh
+#!/usr/bin/sh
 
-bright=$(brightnessctl get)
-bright=$(echo "$bright" | awk '{print ($0 / 75)}')
+bright=$(brightnessctl get | awk '{ printf("%d", $1 / 75) }')
 
-notify-send -t 3000 -a 'notify-bright' -h string:x-canonical-private-synchronous:bright -h int:value:$bright "Bright: ${bright}"
+notify-send -t 3000 -a 'notify-bright' \
+    -h string:x-canonical-private-synchronous:bright \
+    -h int:value:$bright \
+    "Bright: $bright"
