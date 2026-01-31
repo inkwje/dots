@@ -1,6 +1,12 @@
-#!/bin/sh
+#!/usr/bin/sh
 
-volume=$(wpctl get-volume @DEFAULT_AUDIO_SINK@)
-volume=$(echo "$volume" | awk '{print ($2 * 100)}')
+wpgvol=$(wpctl get-volume @DEFAULT_SINK@)
+read vol flgmute_vol <<< $(echo $wpgvol \
+    | awk '{ printf("%d %s", $2 * 100, $3 ? "MUTE" : "") }')
 
-notify-send -t 3000 -a 'notify-volume' -h string:x-canonical-private-synchronous:volume -h int:value:$volume "Volume: ${volume}"
+strvol="$vol${flgmute_vol:+ $flgmute_vol}"
+
+notify-send -t 3000 -a 'notify-volume' \
+    -h string:x-canonical-private-synchronous:volume \
+    -h int:value:$vol \
+    "Volume: $strvol"
