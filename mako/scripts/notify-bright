@@ -2,7 +2,7 @@
 
 bright=$(brightnessctl get | awk '{ printf("%d", $1 / 75) }')
 
-notify-send -t 3000 -a 'notify-bright' \
+notify-send -t 3000 -a 'controls' \
     -h string:x-canonical-private-synchronous:bright \
     -h int:value:$bright \
     "Bright: $bright"
