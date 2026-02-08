@@ -1,4 +1,5 @@
 -- bootstrap lazy.nvim and plugins
+require("config.options")
 
 -- https://github.com/folke/lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
