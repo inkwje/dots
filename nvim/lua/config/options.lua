@@ -5,7 +5,6 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 local opt = vim.opt
--- opt.autocomplete = true            -- enable automatic completion in insert mode
 opt.autoindent = true              -- take indent for new line from previous line ; default
 opt.clipboard = "unnamedplus"      -- use the clipboard as the unnamed register
 opt.completeopt = { "fuzzy", "menuone", "noselect", "popup" }
