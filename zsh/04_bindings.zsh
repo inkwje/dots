@@ -9,9 +9,6 @@ bindkey -d
 # bindkey '^[l' forward-char          # ALT+l: move forward one character
 # bindkey '^[w' forward-word          # ALT+w: move to the beginning of the next word
 
-# history control
-# bindkey '^l' clear-screen           # CTRL+l: clear the screen
-
 # modifying text
 # bindkey '^h' backward-delete-char   # CTRL+h: delete the character behind the cursor
 # bindkey '^b' backward-delete-word   # CTRL+b: delete the word behind the cursor
