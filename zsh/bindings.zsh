@@ -19,3 +19,8 @@ bindkey '^b' backward-delete-word   # CTRL+b: delete the word behind the cursor
 bindkey '^l' delete-char            # CTRL+l: delete the character under the cursor
 bindkey '^w' delete-word            # CTRL+w: delete the current word
 
+# https://github.com/zsh-users/zsh-autosuggestions?tab=readme-ov-file#key-bindings
+bindkey '^]' autosuggest-accept     # CTRL+]: accepts the current suggestion
+bindkey '^^[]' autosuggest-execute  # CTRL+ALT+]: accepts and executes the current suggestion
+bindkey '^[c' autosuggest-clear     # ALT+C: clears the current suggestion
+bindkey '^[t' autosuggest-toggle    # ALT+T: toggles between enabled/disabled suggestions
