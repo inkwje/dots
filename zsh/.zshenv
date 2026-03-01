@@ -8,6 +8,8 @@ export XDG_STATE_HOME="$HOME/.local/state"
 # https://zsh.sourceforge.io/Doc/Release/Files.html
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
+export GPG_TTY=$(tty)
+
 export EDITOR="nvim"
 export VISUAL="nvim"
 
