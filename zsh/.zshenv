@@ -9,5 +9,5 @@ export XDG_STATE_HOME="$HOME/.local/state"
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
 typeset -U path PATH
-path=($HOME/.local/bin $path)
+path=($XDG_BIN_HOME $path)
 export PATH
