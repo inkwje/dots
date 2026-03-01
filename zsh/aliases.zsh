@@ -12,7 +12,7 @@ alias ls="ls -l --color=auto"
 alias la="ls -A"
 
 # git
-alias gt="git status"
+alias gs="git status"
 alias gf="git fetch"
 alias gp="git pull"
 alias gP="git push"
