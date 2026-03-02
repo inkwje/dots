@@ -1,0 +1,8 @@
+# pkgs
+lazygit
+
+# themes
+*/theme.*
+
+# shells
+*/.z[ch]*
