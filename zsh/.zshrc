@@ -10,3 +10,5 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 for module in $ZDOTDIR/*; do
     [[ -r "$module" ]] && source "$module"
 done
+
+source <(fzf --zsh)
