@@ -5,6 +5,7 @@ alias zc="cd $ZDOTDIR"
 alias zr="source $ZDOTDIR/.zshrc"
 alias ze="$EDITOR $ZDOTDIR/.zshrc"
 alias zv="$EDITOR $ZDOTDIR/.zshenv"
+alias zl="zsh --login"
 
 # og command
 alias grep="grep --color=auto"
