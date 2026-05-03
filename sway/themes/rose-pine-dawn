@@ -1,0 +1,16 @@
+# name: Rosé Pine Dawn
+# upstream: https://
+#
+# All natural pine, faux fur and a bit of soho vibes for the classy minimalist
+
+set $background #faf4ed
+set $statusline #575279
+
+set $fw_bord #907aa9
+set $fw_back #faf4ed
+set $fw_text #575279
+
+set $iw_bord #dfdad9
+set $iw_back #f2e9e1
+set $iw_text #9893a5
+

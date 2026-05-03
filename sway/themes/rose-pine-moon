@@ -1,0 +1,16 @@
+# name: Rosé Pine Moon
+# upstream: https://
+#
+# All natural pine, faux fur and a bit of soho vibes for the classy minimalist
+
+set $background #232136
+set $statusline #e0def4
+
+set $fw_bord #c4a7e7
+set $fw_back #232136
+set $fw_text #e0def4
+
+set $iw_bord #44415a
+set $iw_back #393552
+set $iw_text #6e6a86
+

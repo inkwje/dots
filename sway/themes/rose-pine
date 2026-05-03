@@ -1,0 +1,16 @@
+# name: Rosé Pine
+# upstream: https://
+#
+# All natural pine, faux fur and a bit of soho vibes for the classy minimalist
+
+set $background #191724
+set $statusline #e0def4
+
+set $fw_bord #c4a7e7
+set $fw_back #191724
+set $fw_text #e0def4
+
+set $iw_bord #403d52
+set $iw_back #26233a
+set $iw_text #6e6a86
+

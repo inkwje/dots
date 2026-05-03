@@ -1,5 +1,7 @@
 # man sway-bar
 
+include ~/.config/sway/theme.conf
+
 bar {
     position top
 
@@ -8,9 +10,10 @@ bar {
     status_command while date +'%Y-%m-%d %X'; do sleep 1; done
 
     colors {
-        statusline #ffffff
-        background #323232
-        inactive_workspace #32323200 #32323200 #5c5c5c
+        background $background
+        statusline $statusline
+        focused_workspace $fw_bord $fw_back $fw_text
+        inactive_workspace $iw_bord $iw_back $iw_text
     }
 }
 
