@@ -3,7 +3,9 @@
 include ~/.config/sway/theme.conf
 
 bar {
-    position top
+    position "top"
+
+    font "JetBrains Mono 11"
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
