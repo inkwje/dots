@@ -7,9 +7,7 @@ bar {
 
     font "JetBrains Mono 11"
 
-    # When the status_command prints a new line to stdout, swaybar updates.
-    # The default just shows the current date and time.
-    status_command while date +'%Y-%m-%d %X'; do sleep 1; done
+    status_command ~/.config/sway/scripts/bar-status.sh
 
     colors {
         background $background
@@ -18,4 +16,3 @@ bar {
         inactive_workspace $iw_bord $iw_back $iw_text
     }
 }
-
