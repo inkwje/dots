@@ -10,6 +10,14 @@ set $shut "shutdown now"
 
 exec mako
 
+exec swayidle -w \
+    timeout 120 "brightnessctl --save set 20%" \
+        resume "brightnessctl --restore" \
+    timeout 300 "swaymsg 'output * dpms off'" \
+        resume "swaymsg 'output * dpms on'" \
+    timeout 600 "systemctl suspend" \
+        before-sleep "systemctl suspend"
+
 include ~/.config/sway/bar
 include ~/.config/sway/keybindings
 include ~/.config/sway/keybindings-arrows
