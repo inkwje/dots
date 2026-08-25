@@ -5,3 +5,4 @@ vim.g.maplocalleader = "\\"
 -- :h initialization
 require("config.options")
 require("config.keybindings")
+require("plugins")
