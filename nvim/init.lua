@@ -6,3 +6,5 @@ vim.g.maplocalleader = "\\"
 require("config.options")
 require("config.keybindings")
 require("plugins")
+require("tools.lsp")
+require("tools.dap")
