@@ -1,0 +1,1 @@
+[[ -z $WAYLAND_DISPLAY && ${XDG_VTNR:-0} -eq 1 ]] && exec sway
