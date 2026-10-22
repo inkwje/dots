@@ -1,14 +1,5 @@
-HISTFILE=$ZDOTDIR/.zhistory
-HISTSIZE=1000
-SAVEHIST=1000
+# https://zsh.sourceforge.io/Doc/Release/Expansion.html#Filename-Generation
 
-PROMPT="%n %~> "
-
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-for module in $ZDOTDIR/*; do
-    [[ -r "$module" ]] && source "$module"
+for module in $ZDOTDIR/conf.d/*.zsh(N); do
+    source $module
 done
-
-source <(fzf --zsh)
