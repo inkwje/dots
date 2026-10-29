@@ -1,6 +1,12 @@
 vim.pack.add({
-    "https://github.com/rose-pine/neovim",
-    "https://github.com/sainnhe/everforest",
+    {
+        src = "https://github.com/rose-pine/neovim",
+        name = "theme:rose-pine",
+    },
+    {
+        src = "https://github.com/sainnhe/everforest",
+        name = "theme:everforest",
+    },
 })
 
 vim.cmd.colorscheme("rose-pine-main")

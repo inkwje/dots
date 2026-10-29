@@ -1,6 +1,12 @@
 vim.pack.add({
-    "https://github.com/nvim-mini/mini.extra",
-    "https://github.com/nvim-mini/mini.pick",
+    {
+        src = "https://github.com/nvim-mini/mini.extra",
+        name = "finder:mini.extra",
+    },
+    {
+        src = "https://github.com/nvim-mini/mini.pick",
+        name = "finder:mini.pick",
+    },
 })
 
 local extra = require("mini.extra")

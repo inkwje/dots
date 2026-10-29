@@ -13,10 +13,10 @@ end
 local plugins = {
     { package = "finder", load = later },
     { package = "formatter", load = later },
-    { package = "hints", load = later },
+    { package = "hinter", load = later },
+    { package = "homepage", load = now },
     { package = "mini", load = now },
     { package = "parser", load = later },
-    { package = "starter", load = now },
     { package = "statusline", load = now },
     { package = "theme", load = now },
 }

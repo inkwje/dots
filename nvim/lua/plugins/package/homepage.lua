@@ -1,4 +1,9 @@
-vim.pack.add({ "https://github.com/nvim-mini/mini.starter" })
+vim.pack.add({
+    {
+        src = "https://github.com/nvim-mini/mini.starter",
+        name = "homepage:mini.starter",
+    },
+})
 
 local starter = require("mini.starter")
 

@@ -1,7 +1,13 @@
 -- :h dap
 vim.pack.add({
-    "https://codeberg.org/mfussenegger/nvim-dap",
-    "https://github.com/igorlfs/nvim-dap-view",
+    {
+        src = "https://codeberg.org/mfussenegger/nvim-dap",
+        name = "debugger:dap",
+    },
+    {
+        src = "https://github.com/igorlfs/nvim-dap-view",
+        name = "debugger:dap-view",
+    },
 })
 
 local view = require("dap-view")

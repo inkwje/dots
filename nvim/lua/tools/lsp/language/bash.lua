@@ -6,6 +6,7 @@ vim.lsp.config("bash", {
     filetypes = {
         "sh",
         "bash",
+        "zsh",
     },
     root_markers = { ".git" },
 })

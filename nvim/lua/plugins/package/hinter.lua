@@ -1,4 +1,9 @@
-vim.pack.add({ "https://github.com/nvim-mini/mini.clue" })
+vim.pack.add({
+    {
+        src = "https://github.com/nvim-mini/mini.clue",
+        name = "hinter:mini.clue",
+    },
+})
 
 local clue = require("mini.clue")
 
